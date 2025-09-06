@@ -1,0 +1,10 @@
+services:
+  postgresql:
+    image: postgres:16.3
+    environment:
+      POSTGRES_DB: fitMachine
+      POSTGRES_USER: fitMachine
+      POSTGRES_PASSWORD: fitMachine
+    ports:
+    - 5432:5432
+    restart: "no"

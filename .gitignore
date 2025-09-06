@@ -1,0 +1,10 @@
+.envrc
+.vscode
+.idea
+.private/
+.DS_Store
+**/.direnv/**
+bin
+vendor.protogen
+.localenv
+vendor
