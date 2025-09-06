@@ -22,7 +22,7 @@ func main() {
 	httpServer := server.New(ctx, cfg, appLogger)
 	httpServer.SetupRoutes()
 
-	if err = httpServer.Run(ctx); err != nil {
+	if err = httpServer.Run(); err != nil {
 		log.Fatalf("Server failed to start: %s", err)
 	}
 }
